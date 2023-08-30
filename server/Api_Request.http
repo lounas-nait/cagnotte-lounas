@@ -1,0 +1,27 @@
+### ll
+GET http://localhost:8080/api/cagnottes
+Accept: application/json 
+
+### vll
+POST http://localhost:8080/api/e23c38be-5e69-408e-968b-94c38b7592e8/contributeurs
+Accept: application/json
+Content-Type: application/json
+
+{
+    "nom": "lounas",
+    "email": "mami.nait@outlook.fr",
+    "montant": "333"
+}
+
+
+### vv
+POST http://localhost:8080/api/cagnottes
+Accept: application/json 
+Content-Type: application/json
+
+{
+    "nom": "nait",
+    "description": "test",
+    "montantObjectif": "5555"
+    
+}
